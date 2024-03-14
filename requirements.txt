@@ -1,0 +1,3 @@
+pika
+jsonschema
+mysql-connector-python
