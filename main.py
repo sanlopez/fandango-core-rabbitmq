@@ -24,7 +24,6 @@ def main():
 
     # format additional args
     additional_args_parsed = {arg.split('=')[0].replace('--', ''): arg.split('=')[1] for arg in additional_args}
-    print(additional_args_parsed)
 
     # core internal actions (createProject, deleteProject, etc.)
     if fixed_args.action == 'createProject':
